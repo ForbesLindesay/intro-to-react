@@ -1,5 +1,7 @@
 # Intro To React
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/intro-to-react.svg)](https://greenkeeper.io/)
+
 ES6, JSX, State Management and how to structure your components
 
 ## Table Of Contents
