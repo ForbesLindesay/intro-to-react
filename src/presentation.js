@@ -55,7 +55,9 @@ export default class Presentation extends React.Component {
       <Deck>
         <Section>
           <Title>Intro To React</Title>
-          <Intro>Open these notes in your browser: https://itr.forbesl.co.uk</Intro>
+          <Instruction>
+            Open these notes in your browser: https://itr.forbesl.co.uk
+          </Instruction>
         </Section>
         <Section>
           <SectionHeading>Basic Setup</SectionHeading>
