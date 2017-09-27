@@ -17,8 +17,8 @@ if (packageJSONCheck !== packageJSON) {
 
   fs.writeFileSync(stepsDir + '/base/package.json', packageJSON);
 
-  fs.unlinkSync(stepsDir + '/base/yarn.lock');
-  fs.unlinkSync(stepsDir + '/base/package-lock.json');
+  rimraf(stepsDir + '/base/yarn.lock');
+  rimraf(stepsDir + '/base/package-lock.json');
   rimraf(stepsDir + '/base/node_modules');
   cp.execSync('yarn', {cwd: stepsDir + '/base', stdio: 'inherit'});
   rimraf(stepsDir + '/base/node_modules');
@@ -34,21 +34,8 @@ if (packageJSONCheck !== packageJSON) {
   steps.forEach(step => {
     fs.writeFileSync(stepsDir + '/' + step + '/yarn.lock', yarnLock);
   });
-  const nodeModules = lsr(stepsDir + '/base/node_modules');
   steps.forEach(step => {
     rimraf(stepsDir + '/' + step + '/node_modules');
-    fs.mkdirSync(stepsDir + '/' + step + '/node_modules');
-    nodeModules.forEach(entry => {
-      if (entry.isDirectory()) {
-        fs.mkdirSync(stepsDir + '/' + step + '/node_modules/' + entry.path.substr(2));
-      }
-      if (entry.isFile()) {
-        fs.copyFileSync(
-          entry.fullPath,
-          stepsDir + '/' + step + '/node_modules/' + entry.path.substr(2)
-        );
-      }
-    });
   });
   fs.writeFileSync(__dirname + '/package.json-check', packageJSON);
 }

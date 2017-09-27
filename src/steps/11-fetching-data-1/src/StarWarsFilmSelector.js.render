@@ -1,0 +1,13 @@
+return (
+  <select
+    value={this.props.value ? this.props.value.url : 'null'}
+    onChange={this._onChange}
+  >
+    <option value="null">Select a film</option>
+    {this.state.films.map(film => (
+      <option key={film.url} value={film.url}>
+        {film.title}
+      </option>
+    ))}
+  </select>
+);

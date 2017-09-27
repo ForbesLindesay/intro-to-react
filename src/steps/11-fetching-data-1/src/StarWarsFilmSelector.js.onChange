@@ -1,0 +1,8 @@
+_onChange = e => {
+  if (e.target.value === 'null') {
+    this.props.onChange(null);
+  } else {
+    const film = this.state.films.filter(film => film.url === e.target.value)[0];
+    this.props.onChange(film);
+  }
+};

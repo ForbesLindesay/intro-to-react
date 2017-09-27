@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "8"
+
+# Use faster Docker architecture on Travis.
+sudo: false
+
+script:
+  - npm run build
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && npm run deploy

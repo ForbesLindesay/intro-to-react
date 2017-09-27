@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+import {render} from 'react-dom';
 
 import Prism from 'prismjs';
 import 'prismjs/themes/prism-tomorrow.css';

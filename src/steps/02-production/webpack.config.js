@@ -8,6 +8,9 @@ module.exports = {
     filename: 'static/js/[name].[chunkhash:8].js',
     publicPath: '/'
   },
+  module: {
+    loaders: [{test: /\.js$/, loader: 'babel-loader'}]
+  },
   plugins: [
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({
@@ -23,8 +26,8 @@ module.exports = {
     process.env.NODE_ENV === 'production'
       ? [
           new webpack.optimize.UglifyJsPlugin({
-            compress: { warnings: false, comparisons: false },
-            output: { comments: false, ascii_only: true }
+            compress: {warnings: false, comparisons: false},
+            output: {comments: false, ascii_only: true}
           })
         ]
       : []

@@ -10,10 +10,15 @@ const newData = [];
 
 const steps = fs.readdirSync(stepsDir).filter(step => /^\d\d\-/.test(step));
 
-cp.spawnSync('node', [__dirname + '/prepare-dependencies.js'], {stdio: 'inherit'});
+const result = cp.spawnSync('node', [__dirname + '/prepare-dependencies.js'], {
+  stdio: 'inherit'
+});
+if (result.status !== 0) {
+  process.exit(result.status);
+}
 
 steps.forEach((step, i) => {
-  if (i !== 0) {
+  if (i !== 0 && oldData[i - 1]) {
     const newFiles = newData[i - 1];
     const oldFiles = oldData[i - 1].reduce((map, entry) => {
       map[entry.path] = entry.hash;

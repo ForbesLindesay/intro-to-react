@@ -24,7 +24,7 @@
     },
     {
       "path": "webpack.config.js",
-      "hash": "0afa8ee2e0b80ae630e351621cc91c2e"
+      "hash": "5ed5d26a70ded821ac268e5b97019d86"
     },
     {
       "path": "webpack.config.plugins.js",
@@ -32,15 +32,15 @@
     },
     {
       "path": "build/index.html",
-      "hash": "1b648724efd795e4c364a5564c2d33a4"
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
       "path": "src/index.js",
-      "hash": "46faca8770e5c11c2093f290628a7ab0"
+      "hash": "9a6bb6777ad192a83370f1d84bba8b15"
     },
     {
-      "path": "build/static/js/main.a0a64f33.js",
-      "hash": "e29021f82493bb63a9af5706104ede6d"
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
     }
   ],
   [
@@ -66,11 +66,15 @@
     },
     {
       "path": "build/index.html",
-      "hash": "1b648724efd795e4c364a5564c2d33a4"
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
       "path": "src/index.js",
-      "hash": "9a6bb6777ad192a83370f1d84bba8b15"
+      "hash": "06112f28547649b588ae6b0a5d3a5a5a"
+    },
+    {
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
     },
     {
       "path": "build/static/js/main.a0a64f33.js",
@@ -96,7 +100,7 @@
     },
     {
       "path": "build/index.html",
-      "hash": "1b648724efd795e4c364a5564c2d33a4"
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
       "path": "src/WelcomeMessage.js",
@@ -107,6 +111,10 @@
       "hash": "decff105ce064759a90f53d46ddc5f75"
     },
     {
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
+    },
+    {
       "path": "build/static/js/main.a0a64f33.js",
       "hash": "e29021f82493bb63a9af5706104ede6d"
     }
@@ -130,7 +138,7 @@
     },
     {
       "path": "build/index.html",
-      "hash": "1b648724efd795e4c364a5564c2d33a4"
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
       "path": "src/Counter.js",
@@ -142,7 +150,11 @@
     },
     {
       "path": "src/index.js",
-      "hash": "bf62b1adc723627c099cc35aad4377b1"
+      "hash": "3aaf6257834bf88befc9d146a853b5a6"
+    },
+    {
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
     },
     {
       "path": "build/static/js/main.a0a64f33.js",
@@ -168,7 +180,7 @@
     },
     {
       "path": "build/index.html",
-      "hash": "1b648724efd795e4c364a5564c2d33a4"
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
       "path": "src/Counter.js",
@@ -183,6 +195,10 @@
       "hash": "b9077a7b3e6c4138a09bed029a49cc83"
     },
     {
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
+    },
+    {
       "path": "build/static/js/main.a0a64f33.js",
       "hash": "e29021f82493bb63a9af5706104ede6d"
     }
@@ -206,11 +222,11 @@
     },
     {
       "path": "build/index.html",
-      "hash": "1b648724efd795e4c364a5564c2d33a4"
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
-      "path": "src/Point.js",
-      "hash": "a075b690529ca2ef2dc1fc7cc3de20a2"
+      "path": "src/Counter.js",
+      "hash": "4d588d0a6ff8cb7862e0ef48398ec2a0"
     },
     {
       "path": "src/WelcomeForm.js",
@@ -225,6 +241,102 @@
       "hash": "1044f8c78f1bf724d2a8b31dd83ad8fb"
     },
     {
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
+    },
+    {
+      "path": "build/static/js/main.a0a64f33.js",
+      "hash": "e29021f82493bb63a9af5706104ede6d"
+    }
+  ],
+  [
+    {
+      "path": ".DS_Store",
+      "hash": "7ad6cd80aa8666ec282aa12037a47a4f"
+    },
+    {
+      "path": "index.html",
+      "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "webpack.config.js",
+      "hash": "a7bb79d9d130cf72163272c6f8f09886"
+    },
+    {
+      "path": "webpack.config.module.js",
+      "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "build/index.html",
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
+    },
+    {
+      "path": "src/Counter.js",
+      "hash": "4d588d0a6ff8cb7862e0ef48398ec2a0"
+    },
+    {
+      "path": "src/WelcomeForm.js",
+      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+    },
+    {
+      "path": "src/WelcomeMessage.js",
+      "hash": "c0f34cdba42d50f62081a47709aeee31"
+    },
+    {
+      "path": "src/index.js",
+      "hash": "1044f8c78f1bf724d2a8b31dd83ad8fb"
+    },
+    {
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
+    },
+    {
+      "path": "build/static/js/main.a0a64f33.js",
+      "hash": "e29021f82493bb63a9af5706104ede6d"
+    }
+  ],
+  [
+    {
+      "path": ".DS_Store",
+      "hash": "7ad6cd80aa8666ec282aa12037a47a4f"
+    },
+    {
+      "path": "index.html",
+      "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "webpack.config.js",
+      "hash": "a7bb79d9d130cf72163272c6f8f09886"
+    },
+    {
+      "path": "webpack.config.module.js",
+      "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "build/index.html",
+      "hash": "45faf582a23c10ae4a30c3b76107bd53"
+    },
+    {
+      "path": "src/Counter.js",
+      "hash": "141c3848e7ccfa63604bd07929ec059a"
+    },
+    {
+      "path": "src/WelcomeForm.js",
+      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+    },
+    {
+      "path": "src/WelcomeMessage.js",
+      "hash": "c0f34cdba42d50f62081a47709aeee31"
+    },
+    {
+      "path": "src/index.js",
+      "hash": "e68a1c89b0bae3969b44d52661e4ba85"
+    },
+    {
+      "path": "build/static/js/main.9c25cf12.js",
+      "hash": "5535aef6c94700cb9ad60374882d05cb"
+    },
+    {
       "path": "build/static/js/main.a0a64f33.js",
       "hash": "e29021f82493bb63a9af5706104ede6d"
     }
@@ -251,8 +363,8 @@
       "hash": "1b648724efd795e4c364a5564c2d33a4"
     },
     {
-      "path": "src/Point.js",
-      "hash": "a075b690529ca2ef2dc1fc7cc3de20a2"
+      "path": "src/Counter.js",
+      "hash": "e76836a5582916fe0625598bc9f30043"
     },
     {
       "path": "src/WelcomeForm.js",
@@ -264,7 +376,57 @@
     },
     {
       "path": "src/index.js",
-      "hash": "1044f8c78f1bf724d2a8b31dd83ad8fb"
+      "hash": "e68a1c89b0bae3969b44d52661e4ba85"
+    },
+    {
+      "path": "build/static/js/main.a0a64f33.js",
+      "hash": "e29021f82493bb63a9af5706104ede6d"
+    }
+  ],
+  [
+    {
+      "path": ".DS_Store",
+      "hash": "7ad6cd80aa8666ec282aa12037a47a4f"
+    },
+    {
+      "path": "index.html",
+      "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "webpack.config.js",
+      "hash": "a7bb79d9d130cf72163272c6f8f09886"
+    },
+    {
+      "path": "webpack.config.module.js",
+      "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "build/index.html",
+      "hash": "1b648724efd795e4c364a5564c2d33a4"
+    },
+    {
+      "path": "src/App.js",
+      "hash": "31396e4f37baed851554d824591c1541"
+    },
+    {
+      "path": "src/Counter.js",
+      "hash": "e76836a5582916fe0625598bc9f30043"
+    },
+    {
+      "path": "src/StarWarsFilmsSelector.js",
+      "hash": "571adfb100c6370985823537de279b3d"
+    },
+    {
+      "path": "src/WelcomeForm.js",
+      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+    },
+    {
+      "path": "src/WelcomeMessage.js",
+      "hash": "c0f34cdba42d50f62081a47709aeee31"
+    },
+    {
+      "path": "src/index.js",
+      "hash": "1ca699903bf994c1ef7684191904ac6c"
     },
     {
       "path": "build/static/js/main.a0a64f33.js",
