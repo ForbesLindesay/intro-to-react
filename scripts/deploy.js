@@ -29,4 +29,5 @@ uploader.on('error', function(err) {
 });
 uploader.on('end', function() {
   console.log('done uploading website');
+  process.exit(0);
 });
