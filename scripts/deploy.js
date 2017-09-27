@@ -9,8 +9,8 @@ const s3 = require('s3');
 const awsS3Client = new AwsS3({
   accessKeyId: process.env.S3_KEY,
   secretAccessKey: process.env.S3_SECRET,
-  region: process.env.S3_REGION,
-  signatureVersion: 'v4'
+  region: process.env.S3_REGION
+  // signatureVersion: 'v4'
 });
 const client = s3.createClient({
   s3Client: awsS3Client
