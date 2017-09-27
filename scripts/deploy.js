@@ -3,7 +3,6 @@ if (process.env.TRAVIS_BRANCH !== 'master') {
 }
 
 const path = require('path');
-const s3 = require('s3');
 const AwsS3 = require('aws-sdk/clients/s3');
 const s3 = require('s3');
 
