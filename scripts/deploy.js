@@ -4,13 +4,17 @@ if (process.env.TRAVIS_BRANCH !== 'master') {
 
 const path = require('path');
 const s3 = require('s3');
+const AwsS3 = require('aws-sdk/clients/s3');
+const s3 = require('s3');
 
+const awsS3Client = new AwsS3({
+  accessKeyId: process.env.S3_KEY,
+  secretAccessKey: process.env.S3_SECRET,
+  region: process.env.S3_REGION,
+  signatureVersion: 'v4'
+});
 const client = s3.createClient({
-  s3Options: {
-    accessKeyId: process.env.S3_KEY,
-    secretAccessKey: process.env.S3_SECRET,
-    region: process.env.S3_REGION
-  }
+  s3Client: awsS3Client
 });
 var uploader = client.uploadDir({
   localDir: path.resolve(__dirname + '/../build'),
@@ -22,6 +26,7 @@ var uploader = client.uploadDir({
 });
 uploader.on('error', function(err) {
   console.error('unable to sync:', err.stack);
+  process.exit(1);
 });
 uploader.on('end', function() {
   console.log('done uploading website');
