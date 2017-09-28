@@ -8,7 +8,7 @@ class StarWarsCharacter extends React.Component {
   }
   componentWillReceiveProps(props) {
     if (props.url !== this.props.url) {
-      this.setState({character: Store.getObject(props.url)});
+      this.load(props.url);
     }
   }
   load(url) {
