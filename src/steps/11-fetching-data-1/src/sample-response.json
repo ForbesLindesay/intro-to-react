@@ -1,0 +1,9 @@
+{
+  "results": [
+    {
+      "title": "Return of the Jedi",
+      "url": "https://swapi.co/films/0",
+      "characters": ["https://swapi.co/people/0", "https://swapi.co/people/1"]
+    }
+  ]
+}

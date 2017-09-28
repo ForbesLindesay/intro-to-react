@@ -68,7 +68,7 @@ export default class Presentation extends React.Component {
           </Instruction>
           <Instruction>The output should be either:</Instruction>
           <Paragraph>
-            <Code>v6.11.3</Code> or <Code>v8.5.0</Code>
+            <Code>v6.11.3</Code> or <Code>v8.6.0</Code>
           </Paragraph>
           <Instruction>If you don't have node, and are using Windows:</Instruction>
           <Paragraph>
@@ -143,8 +143,7 @@ export default class Presentation extends React.Component {
             lang="javascript"
             source={require('./steps/01-init/webpack.config.js')}
           />
-        </Section>
-        <Section>
+
           <Heading>Development</Heading>
           <Instruction>
             Run <Code>npm run start</Code> and load the url, usually{' '}
@@ -159,10 +158,62 @@ export default class Presentation extends React.Component {
           </Instruction>
         </Section>
         <Section>
-          <Heading>Babel and JSX</Heading>
+          <SectionHeading>Production</SectionHeading>
+
+          <Heading>Babel</Heading>
+          <Paragraph>
+            Babel lets you use newer syntax that may not currently be understood by all
+            browsers. By defalut, babel just parses your code, then writes it out again,
+            without changing any of the semantics.
+          </Paragraph>
+          <Instruction>
+            To tell babel what to compile, add a <Code>.babelrc</Code> file:
+          </Instruction>
+          <CodePane lang="javascript" source={require('./steps/03-jsx/.babelrc')} />
+
+          <Instruction>
+            Run <Code>npm run build</Code> and open the <Code>build/</Code> folder
+          </Instruction>
+          <Instruction>
+            In <Code>build/static/js/</Code> you should see a very large, uncompressed
+            JavaScript file. We can tell webpack to compress that file, using plugins.
+          </Instruction>
+
+          <Instruction>
+            Add a <Code>module</Code> section and update the <Code>plugins</Code> section
+            of <Code>webpack.config.js</Code>:
+          </Instruction>
+          <CodePane
+            lang="javascript"
+            source={require('./steps/02-production/webpack.config.js')}
+          />
+
+          <Heading>NODE_ENV</Heading>
+          <Paragraph>
+            <Code>process.env.NODE_ENV</Code> and <Code>webpack.DefinePlugin</Code> lets
+            us adjust behaviour between development and production.
+          </Paragraph>
+          <Instruction>
+            Update <Code>src/index.js</Code>:
+          </Instruction>
+          <CodePane
+            lang="javascript"
+            source={require('./steps/02-production/src/index.js')}
+          />
+
+          <Heading>Testing production</Heading>
+          <Instruction>
+            Run <Code>npm run build</Code> then run <Code>npm run serve-prod</Code>.
+            Notice when you load the resulting URL, that it says the mode is production.
+          </Instruction>
+          <Instruction>
+            Run <Code>npm run start</Code>. Notice when you load the resulting URL, that
+            it says the mode is development.
+          </Instruction>
         </Section>
         <Section>
-          <Heading>JSX</Heading>
+          <SectionHeading>JSX</SectionHeading>
+
           <Paragraph>JSX is a shorthand for writing React code.</Paragraph>
 
           <CodePane
@@ -179,46 +230,13 @@ export default class Presentation extends React.Component {
           />
 
           <Paragraph>
-            If you add JSX to your JavaScript file, webpack will throw errors. Babel helps
-            fix these.
-          </Paragraph>
-        </Section>
-        <Section>
-          <Heading>Babel and Webpack</Heading>
-          <Paragraph>
-            Loaders let you use newer syntax, not currently understood by browsers
-          </Paragraph>
-          <Instruction>
-            Add a module section to <Code>webpack.config.js</Code>:
-          </Instruction>
-          <CodePane
-            lang="javascript"
-            source={require('./steps/03-jsx/webpack.config.module.js')}
-          />
-        </Section>
-        <Section>
-          <Heading>BabelRC</Heading>
-          <Paragraph>
-            By defalut, babel just parses your code, then writes it out again, without
-            changing any of the semantics.
-          </Paragraph>
-          <Instruction>
-            To tell babel what to compile, add a <Code>.babelrc</Code> file:
-          </Instruction>
-          <CodePane lang="javascript" source={require('./steps/03-jsx/.babelrc')} />
-        </Section>
-        <Section>
-          <Heading>JSX</Heading>
-          <Paragraph>
             Now we have babel configured, we can finally start using some react code
           </Paragraph>
           <Instruction>
             Update <Code>src/index.js</Code> to use JSX:
           </Instruction>
           <CodePane lang="javascript" source={require('./steps/03-jsx/src/index.js')} />
-        </Section>
-        <Section>
-          <Heading>JSX</Heading>
+
           <Paragraph>
             When you load the result in a browser, you should notice you are now able to
             use the text input. This is because when React renders, it only updates things
@@ -227,56 +245,8 @@ export default class Presentation extends React.Component {
           </Paragraph>
         </Section>
         <Section>
-          <Heading>Production</Heading>
-          <Instruction>
-            Run <Code>npm run build</Code> and open the build folder
-          </Instruction>
-          <Instruction>
-            In <Code>build/static/js</Code> you should see a very large, uncompressed
-            JavaScript file. We can tell webpack to compress that file.
-          </Instruction>
-        </Section>
-        <Section>
-          <Heading>Production</Heading>
-          <Paragraph>Plugins can help optimise code in production</Paragraph>
-          <Instruction>
-            Update the plugins section of <Code>webpack.config.js</Code>:
-          </Instruction>
-          <CodePane
-            lang="javascript"
-            source={require('./steps/02-production/webpack.config.plugins.js')}
-          />
-        </Section>
-        <Section>
-          <Heading>NODE_ENV</Heading>
-          <Paragraph>
-            <Code>process.env.NODE_ENV</Code> and <Code>webpack.DefinePlugin</Code>
-            let us adjust behaviour between development and production.
-          </Paragraph>
-          <Instruction>
-            Update <Code>src/index.js</Code>:
-          </Instruction>
-          <CodePane
-            lang="javascript"
-            source={require('./steps/02-production/src/index.js')}
-          />
-        </Section>
-        <Section>
-          <Heading>Testing production</Heading>
-          <Instruction>
-            Run <Code>npm run build</Code> then run <Code>npm run serve-prod</Code>.
-            Notice when you load the resulting URL, that it says the mode is production.
-          </Instruction>
-          <Instruction>
-            Run <Code>npm run start</Code>. Notice when you load the resulting URL, that
-            it says the mode is development.
-          </Instruction>
-        </Section>
-        <Section>
-          <Heading>Functional Components</Heading>
-        </Section>
-        <Section>
-          <Heading>Functional Components</Heading>
+          <SectionHeading>Functional Components</SectionHeading>
+
           <Paragraph>
             React lets us wrap up pieces of jsx as re-usable "components".
           </Paragraph>
@@ -287,9 +257,7 @@ export default class Presentation extends React.Component {
             lang="javascript"
             source={require('./steps/04-functional-components/src/WelcomeMessage.js')}
           />
-        </Section>
-        <Section>
-          <Heading>Functional Components</Heading>
+
           <Instruction>
             To use your component, update <Code>src/index.js</Code>:
           </Instruction>
@@ -297,9 +265,7 @@ export default class Presentation extends React.Component {
             lang="javascript"
             source={require('./steps/04-functional-components/src/index.js')}
           />
-        </Section>
-        <Section>
-          <Heading>Functional Components</Heading>
+
           <Instruction>
             To test your knowledge, try creating a component that shows the current "mode"
             taken from <Code>NODE_ENV</Code>. This component shouldn't need to take any
@@ -308,12 +274,16 @@ export default class Presentation extends React.Component {
           <Paragraph>
             N.B. I always recommend creating a new file for every single component.
           </Paragraph>
+          <Heading>Mode Functional Component</Heading>
+          <Paragraph>You should have created something like</Paragraph>
+          <CodePane
+            lang="javascript"
+            source={require('./steps/04-functional-components/src/Mode.js')}
+          />
         </Section>
         <Section>
-          <Heading>Classes</Heading>
-        </Section>
-        <Section>
-          <Heading>Classes</Heading>
+          <SectionHeading>Classes</SectionHeading>
+
           <Instruction>
             Create a new file to define a class <Code>src/Counter.js</Code>:
           </Instruction>
@@ -321,9 +291,7 @@ export default class Presentation extends React.Component {
             lang="javascript"
             source={require('./steps/05-classes/src/Counter.js')}
           />
-        </Section>
-        <Section>
-          <Heading>Classes</Heading>
+
           <Instruction>
             Update <Code>src/index.js</Code> to demonstrate using that class:
           </Instruction>
@@ -331,19 +299,16 @@ export default class Presentation extends React.Component {
             lang="javascript"
             source={require('./steps/05-classes/src/index.js')}
           />
-        </Section>
-        <Section>
-          <Heading>Classes</Heading>
+
+          <Heading>Binding Class Methods</Heading>
           <Instruction>
-            Try chaning <Code>src/index.js</Code> to indirectly call those methods:
+            Try changing <Code>src/index.js</Code> to indirectly call those methods:
           </Instruction>
           <CodePane
             lang="javascript"
             source={require('./steps/06-arrow-functions/src/index.js')}
           />
-        </Section>
-        <Section>
-          <Heading>Classes</Heading>
+
           <Instruction>
             To fix the resulting error, update <Code>src/Counter.js</Code> to use arrow
             functions:
@@ -354,7 +319,7 @@ export default class Presentation extends React.Component {
           />
         </Section>
         <Section>
-          <Heading>Component Classes</Heading>
+          <SectionHeading>Component Classes</SectionHeading>
           <Instruction>
             Add a new react component, <Code>src/WelcomeForm.js</Code>, this time using
             the class style:
@@ -363,9 +328,7 @@ export default class Presentation extends React.Component {
             lang="javascript"
             source={require('./steps/06-component-classes/src/WelcomeForm.js')}
           />
-        </Section>
-        <Section>
-          <Heading>Component Classes</Heading>
+
           <Instruction>
             Update <Code>src/index.js</Code> to demonstrate using the new component:
           </Instruction>

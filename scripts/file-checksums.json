@@ -27,16 +27,12 @@
       "hash": "5ed5d26a70ded821ac268e5b97019d86"
     },
     {
-      "path": "webpack.config.plugins.js",
-      "hash": "fb384735878cdfadf8e66ac527704622"
-    },
-    {
       "path": "build/index.html",
       "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
       "path": "src/index.js",
-      "hash": "9a6bb6777ad192a83370f1d84bba8b15"
+      "hash": "f51dd475283337a81ab698f2c53c0d24"
     },
     {
       "path": "build/static/js/main.9c25cf12.js",
@@ -61,16 +57,12 @@
       "hash": "a7bb79d9d130cf72163272c6f8f09886"
     },
     {
-      "path": "webpack.config.module.js",
-      "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
       "path": "build/index.html",
       "hash": "45faf582a23c10ae4a30c3b76107bd53"
     },
     {
       "path": "src/index.js",
-      "hash": "06112f28547649b588ae6b0a5d3a5a5a"
+      "hash": "f51dd475283337a81ab698f2c53c0d24"
     },
     {
       "path": "build/static/js/main.9c25cf12.js",
@@ -406,15 +398,201 @@
     },
     {
       "path": "src/App.js",
-      "hash": "31396e4f37baed851554d824591c1541"
+      "hash": "5bd37643ddb5ed5c9e64d4c530213f5e"
     },
     {
       "path": "src/Counter.js",
       "hash": "e76836a5582916fe0625598bc9f30043"
     },
     {
-      "path": "src/StarWarsFilmsSelector.js",
-      "hash": "571adfb100c6370985823537de279b3d"
+      "path": "src/StarWarsFilmList.js",
+      "hash": "fe006b2b00756e312a611b962bc9e06c"
+    },
+    {
+      "path": "src/WelcomeForm.js",
+      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+    },
+    {
+      "path": "src/WelcomeMessage.js",
+      "hash": "c0f34cdba42d50f62081a47709aeee31"
+    },
+    {
+      "path": "src/index.js",
+      "hash": "1ca699903bf994c1ef7684191904ac6c"
+    },
+    {
+      "path": "src/sample-response.json",
+      "hash": "590bb35c6ce872b8bad6e0bd4004881b"
+    },
+    {
+      "path": "build/static/js/main.a0a64f33.js",
+      "hash": "e29021f82493bb63a9af5706104ede6d"
+    }
+  ],
+  [
+    {
+      "path": ".DS_Store",
+      "hash": "7ad6cd80aa8666ec282aa12037a47a4f"
+    },
+    {
+      "path": "index.html",
+      "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "webpack.config.js",
+      "hash": "a7bb79d9d130cf72163272c6f8f09886"
+    },
+    {
+      "path": "webpack.config.module.js",
+      "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "build/index.html",
+      "hash": "1b648724efd795e4c364a5564c2d33a4"
+    },
+    {
+      "path": "src/App.js",
+      "hash": "cc9cfafabe2fb521466c2a1f8b23391d"
+    },
+    {
+      "path": "src/Counter.js",
+      "hash": "e76836a5582916fe0625598bc9f30043"
+    },
+    {
+      "path": "src/StarWarsFilmList.js",
+      "hash": "fe006b2b00756e312a611b962bc9e06c"
+    },
+    {
+      "path": "src/StarWarsFilmSelector.js",
+      "hash": "dcf433495dbe519fff517491d85d57ba"
+    },
+    {
+      "path": "src/StarWarsFilmSelector.js.onChange",
+      "hash": "2501807a414fc84b7e9ce4c9504f145a"
+    },
+    {
+      "path": "src/StarWarsFilmSelector.js.render",
+      "hash": "721f0c2ee634d137388daba6e471a13d"
+    },
+    {
+      "path": "src/WelcomeForm.js",
+      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+    },
+    {
+      "path": "src/WelcomeMessage.js",
+      "hash": "c0f34cdba42d50f62081a47709aeee31"
+    },
+    {
+      "path": "src/index.js",
+      "hash": "1ca699903bf994c1ef7684191904ac6c"
+    },
+    {
+      "path": "src/sample-response.json",
+      "hash": "590bb35c6ce872b8bad6e0bd4004881b"
+    },
+    {
+      "path": "build/static/js/main.a0a64f33.js",
+      "hash": "e29021f82493bb63a9af5706104ede6d"
+    }
+  ],
+  [
+    {
+      "path": ".DS_Store",
+      "hash": "7ad6cd80aa8666ec282aa12037a47a4f"
+    },
+    {
+      "path": "index.html",
+      "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "webpack.config.js",
+      "hash": "a7bb79d9d130cf72163272c6f8f09886"
+    },
+    {
+      "path": "webpack.config.module.js",
+      "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "build/index.html",
+      "hash": "1b648724efd795e4c364a5564c2d33a4"
+    },
+    {
+      "path": "src/App.js",
+      "hash": "4e461890a37106fd4722520d681d523c"
+    },
+    {
+      "path": "src/Counter.js",
+      "hash": "e76836a5582916fe0625598bc9f30043"
+    },
+    {
+      "path": "src/StarWarsCharacter.js",
+      "hash": "27eb7bcc44b3dd11a469e42d59648643"
+    },
+    {
+      "path": "src/StarWarsCharacter.part.js",
+      "hash": "0f92e15e701879c82ebdc0f32fd68ee3"
+    },
+    {
+      "path": "src/StarWarsFilmSelector.js",
+      "hash": "26556ff89771e68e4bde5addd9dbe9c8"
+    },
+    {
+      "path": "src/WelcomeForm.js",
+      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+    },
+    {
+      "path": "src/WelcomeMessage.js",
+      "hash": "c0f34cdba42d50f62081a47709aeee31"
+    },
+    {
+      "path": "src/index.js",
+      "hash": "1ca699903bf994c1ef7684191904ac6c"
+    },
+    {
+      "path": "build/static/js/main.a0a64f33.js",
+      "hash": "e29021f82493bb63a9af5706104ede6d"
+    }
+  ],
+  [
+    {
+      "path": ".DS_Store",
+      "hash": "7ad6cd80aa8666ec282aa12037a47a4f"
+    },
+    {
+      "path": "index.html",
+      "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "webpack.config.js",
+      "hash": "a7bb79d9d130cf72163272c6f8f09886"
+    },
+    {
+      "path": "webpack.config.module.js",
+      "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "build/index.html",
+      "hash": "1b648724efd795e4c364a5564c2d33a4"
+    },
+    {
+      "path": "src/App.js",
+      "hash": "57d37d6f556bed2cb4e8770ad441cd2d"
+    },
+    {
+      "path": "src/Counter.js",
+      "hash": "e76836a5582916fe0625598bc9f30043"
+    },
+    {
+      "path": "src/StarWarsCharacter.js",
+      "hash": "27eb7bcc44b3dd11a469e42d59648643"
+    },
+    {
+      "path": "src/StarWarsCharacter.part.js",
+      "hash": "cfd34f14b42be35ff1634d9e6aa3f2f1"
+    },
+    {
+      "path": "src/StarWarsFilmSelector.js",
+      "hash": "26556ff89771e68e4bde5addd9dbe9c8"
     },
     {
       "path": "src/WelcomeForm.js",
