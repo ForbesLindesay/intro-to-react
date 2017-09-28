@@ -5,22 +5,28 @@ import Prism from 'prismjs';
 
 // Require CSS
 require('normalize.css');
+require('./inter/inter.css');
 
 const Deck = styled.article`
   font-size: 1.5em;
   margin: 1em;
+  font-family: 'Inter UI', sans-serif;
 `;
 const Section = styled.section`margin-top: 1em;`;
 const Title = styled.h1``;
 const SectionHeading = styled.h2``;
 const Heading = styled.h3``;
 const Paragraph = styled.p``;
-const Instruction = styled.p`color: #03a9fc;`;
+const Instruction = styled.p`color: hsl(209, 100%, 44%);`;
 const Code = styled.code`
   background: lightgray;
   color: black;
 `;
-const Link = styled.a``;
+const Link = styled.a`
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+`;
 
 const format = str => {
   return str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -56,8 +62,15 @@ export default class Presentation extends React.Component {
         <Section>
           <Title>Intro To React</Title>
           <Instruction>
-            Open these notes in your browser: https://itr.forbesl.co.uk
+            Open these notes in your browser:{' '}
+            <Link href="https://itr.forbesl.co.uk">https://itr.forbesl.co.uk</Link>
           </Instruction>
+          <Paragraph>
+            You can find an example of the code at each step in{' '}
+            <Link href="https://github.com/ForbesLindesay/intro-to-react/tree/master/src/steps">
+              https://github.com/ForbesLindesay/intro-to-react/tree/master/src/steps
+            </Link>
+          </Paragraph>
         </Section>
         <Section>
           <SectionHeading>Basic Setup</SectionHeading>
