@@ -4,7 +4,7 @@ setInterval(() => {
   root.innerHTML = `
     <p>
       Mode:
-      <span className=${process.env.NODE_ENV === 'production' ? 'green' : 'red'}>
+      <span class=${process.env.NODE_ENV === 'production' ? 'green' : 'red'}>
         ${process.env.NODE_ENV}
       </span>
     </p>

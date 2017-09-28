@@ -553,6 +553,11 @@ export default class Presentation extends React.Component {
         </Section>
         <Section>
           <SectionHeading>External State</SectionHeading>
+          <Paragraph>
+            We want to keep all UI state in the components, but it's important not to have
+            the same state in more than one location. After a while, it can get
+            frustrating to keep having to move state up and down the component hierachy.
+          </Paragraph>
           <Instruction>
             Create a new file called <Code>src/Store.js</Code>
           </Instruction>

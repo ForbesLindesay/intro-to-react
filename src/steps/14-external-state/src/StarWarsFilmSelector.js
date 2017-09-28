@@ -18,7 +18,8 @@ class StarWarsFilmSelector extends React.Component {
     if (e.target.value === 'null') {
       this.props.onChange(null);
     } else {
-      const film = this.state.films.find(film => film.url === e.target.value);
+      const films = this.state.films.value;
+      const film = films.find(film => film.url === e.target.value);
       this.props.onChange(film);
     }
   };

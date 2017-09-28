@@ -1,32 +1,30 @@
 const React = require('react');
 const request = require('then-request');
+const Store = require('./Store');
 
 class StarWarsCharacter extends React.Component {
-  state = {error: null, character: null};
+  state = {character: null};
   componentDidMount() {
-    this.load(this.props.url);
+    Store.subscribe(this._onUpdate);
+    this._onUpdate();
   }
   componentWillReceiveProps(props) {
     if (props.url !== this.props.url) {
-      this.load(props.url);
+      this._onUpdate();
     }
   }
-  load(url) {
-    this.setState({error: null, character: null});
-    request('get', url)
-      .getBody('utf8')
-      .then(JSON.parse)
-      .then(
-        response => this.setState({character: response}),
-        error => this.setState({error})
-      );
+  componentWillUnmount() {
+    Store.unsubscribe(this._onUpdate);
   }
+  _onUpdate = () => {
+    this.setState({films: Store.getObject(this.props.url)});
+  };
   render() {
-    if (this.state.error !== null) {
-      return <li>Unable to load character</li>;
-    }
     if (this.state.character === null) {
       return <li>Loading character</li>;
+    }
+    if (!this.state.character.success) {
+      return <li>Unable to load character</li>;
     }
     return <li>{this.state.character.name}</li>;
   }
