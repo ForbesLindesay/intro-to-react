@@ -1,4 +1,4 @@
-const Point = require('./Counter');
+const Counter = require('./Counter');
 
 const root = document.getElementById('root');
 
