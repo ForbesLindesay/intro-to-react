@@ -560,10 +560,19 @@ export default class Presentation extends React.Component {
             lang="javascript"
             source={require('./steps/14-external-state/src/Store.js')}
           />
+          <Instruction>
+            Update <Code>src/StarWarsFilmSelector.js</Code> to fetch data from{' '}
+            <Code>src/Store.js</Code>
+          </Instruction>
+          <CodePane
+            lang="javascript"
+            source={require('./steps/14-external-state/src/StarWarsFilmSelector.js')}
+          />
+          <Instruction>
+            Update <Code>src/StarWarsCharacter.js</Code> to fetch data from{' '}
+            <Code>src/Store.js</Code>
+          </Instruction>
         </Section>
-        <Instruction>
-          Update your components to fetch data from <Code>src/Store.js</Code>
-        </Instruction>
       </Deck>
     );
   }

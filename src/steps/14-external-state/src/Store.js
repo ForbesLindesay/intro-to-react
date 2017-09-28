@@ -2,16 +2,16 @@ const request = require('then-request');
 
 const subscribers = [];
 
-export function subscribe(fn) {
+exports.subscribe = function subscribe(fn) {
   subscribers.push(fn);
-}
+};
 
-export function unsubscribe(fn) {
+exports.unsubscribe = function unsubscribe(fn) {
   const index = subscribers.indexOf(fn);
   if (index !== -1) {
     subscribers.splice(index, 1);
   }
-}
+};
 
 function onUpdate() {
   subscribers.forEach(fn => fn());
@@ -25,12 +25,12 @@ const fetchingURL = {};
 const objectsByURL = {};
 const errorsByURL = {};
 
-export function getObject(url) {
+exports.getObject = function getObject(url) {
   if (errorsByURL[url]) {
-    return errorsByURL[url];
+    return {success: false, erorr: errorsByURL[url]};
   }
   if (objectsByURL[url]) {
-    return objectsByURL[url];
+    return {success: true, value: objectsByURL[url]};
   }
   if (!fetchingURL[url]) {
     fetchingURL[url] = true;
@@ -51,15 +51,15 @@ export function getObject(url) {
       );
   }
   return null;
-}
+};
 
-export function getFilms() {
+exports.getFilms = function getFilms() {
   if (filmsError) {
-    return filmsError;
+    return {success: false, erorr: filmsError};
   }
   if (filmURLs) {
     // denormalize
-    return filmURLs.map(url => objectsByURL[url]);
+    return {success: true, value: filmURLs.map(url => objectsByURL[url])};
   }
   if (!fetchingFilms) {
     fetchingFilms = true;
@@ -84,4 +84,4 @@ export function getFilms() {
       );
   }
   return null;
-}
+};
