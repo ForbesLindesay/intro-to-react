@@ -551,6 +551,19 @@ export default class Presentation extends React.Component {
             <strong>new</strong> characters as you change films.
           </Paragraph>
         </Section>
+        <Section>
+          <SectionHeading>External State</SectionHeading>
+          <Instruction>
+            Create a new file called <Code>src/Store.js</Code>
+          </Instruction>
+          <CodePane
+            lang="javascript"
+            source={require('./steps/14-external-state/src/Store.js')}
+          />
+        </Section>
+        <Instruction>
+          Update your components to fetch data from <Code>src/Store.js</Code>
+        </Instruction>
       </Deck>
     );
   }
