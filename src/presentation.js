@@ -578,6 +578,26 @@ export default class Presentation extends React.Component {
             <Code>src/Store.js</Code>
           </Instruction>
         </Section>
+        <Section>
+          <SectionHeading>Higher Order Component</SectionHeading>
+          <Instruction>
+            Create a new file called <Code>src/connect.js</Code>
+          </Instruction>
+          <CodePane
+            lang="javascript"
+            source={require('./steps/15-connect/src/connect.js')}
+          />
+          <Instruction>
+            Update <Code>src/StarWarsFilmSelector.js</Code> to use connect
+          </Instruction>
+          <CodePane
+            lang="javascript"
+            source={require('./steps/15-connect/src/StarWarsFilmSelector.js')}
+          />
+          <Instruction>
+            Update <Code>src/StarWarsCharacter.js</Code> to also use connect
+          </Instruction>
+        </Section>
       </Deck>
     );
   }
