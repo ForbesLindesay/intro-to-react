@@ -12,12 +12,16 @@ const Deck = styled.article`
   margin: 1em;
   font-family: 'Inter UI', sans-serif;
 `;
-const Section = styled.section`margin-top: 1em;`;
+const Section = styled.section`
+  margin-top: 1em;
+`;
 const Title = styled.h1``;
 const SectionHeading = styled.h2``;
 const Heading = styled.h3``;
 const Paragraph = styled.p``;
-const Instruction = styled.p`color: hsl(209, 100%, 44%);`;
+const Instruction = styled.p`
+  color: hsl(209, 100%, 44%);
+`;
 const Code = styled.code`
   background: lightgray;
   color: black;
@@ -81,7 +85,7 @@ export default class Presentation extends React.Component {
           </Instruction>
           <Instruction>The output should be either:</Instruction>
           <Paragraph>
-            <Code>v6.11.3</Code> or <Code>v8.6.0</Code>
+            <Code>v6.14.2</Code>, <Code>v8.11.2</Code> or <Code>v10.1.0</Code>
           </Paragraph>
           <Instruction>If you don't have node, and are using Windows:</Instruction>
           <Paragraph>
@@ -91,7 +95,7 @@ export default class Presentation extends React.Component {
           </Paragraph>
           <Instruction>If you don't have node, and are using OSX or Linux:</Instruction>
           <Paragraph>
-            If you don't have it already, I suggest installing nvm:
+            If you don't have it already, I suggest installing nvm:{' '}
             <Link href="https://nodejs.org/en/download/">
               https://github.com/creationix/nvm
             </Link>
