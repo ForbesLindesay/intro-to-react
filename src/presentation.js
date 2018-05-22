@@ -123,6 +123,12 @@ export default class Presentation extends React.Component {
         </Section>
         <Section>
           <SectionHeading>Project Setup</SectionHeading>
+          <Paragraph>
+            To reduce the amount you need to install, you can download{' '}
+            <Link href="/base.tgz">this tarball</Link> that contains all of the
+            dependencies. If you skip doing this, they will just be downloaded when you
+            run npm install.
+          </Paragraph>
           <Heading>package.json</Heading>
           <Paragraph>
             We will want to be able to use third party libraries in our project. We can
