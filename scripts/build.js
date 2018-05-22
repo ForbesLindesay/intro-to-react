@@ -26,6 +26,7 @@ const formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
 const printHostingInstructions = require('react-dev-utils/printHostingInstructions');
 const FileSizeReporter = require('react-dev-utils/FileSizeReporter');
 const printBuildError = require('react-dev-utils/printBuildError');
+const lsr = require('lsr').lsrSync;
 
 const measureFileSizesBeforeBuild = FileSizeReporter.measureFileSizesBeforeBuild;
 const printFileSizesAfterBuild = FileSizeReporter.printFileSizesAfterBuild;
@@ -93,6 +94,12 @@ measureFileSizesBeforeBuild(paths.appBuild)
         WARN_AFTER_BUNDLE_GZIP_SIZE,
         WARN_AFTER_CHUNK_GZIP_SIZE
       );
+      console.log();
+      lsr(paths.appBuild).forEach(entry => {
+        if (entry.isFile()) {
+          console.log(entry.path);
+        }
+      });
       console.log();
 
       const appPackage = require(paths.appPackageJson);
