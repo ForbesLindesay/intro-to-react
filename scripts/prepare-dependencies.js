@@ -40,5 +40,7 @@ if (packageJSONCheck !== packageJSON) {
   fs.writeFileSync(__dirname + '/package.json-check', packageJSON);
 } else {
   rimraf(stepsDir + '/base/node_modules');
+  fs.writeFileSync(stepsDir + '/base/package.json', packageJSON);
   cp.execSync('yarn', {cwd: stepsDir + '/base', stdio: 'inherit'});
+  fs.unlinkSync(stepsDir + '/base/package.json');
 }
