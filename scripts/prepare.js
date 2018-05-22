@@ -18,6 +18,7 @@ if (result.status !== 0) {
 }
 
 steps.forEach((step, i) => {
+  rimraf(stepsDir + '/' + step + '/build');
   if (i !== 0 && oldData[i - 1]) {
     const newFiles = newData[i - 1];
     const oldFiles = oldData[i - 1].reduce((map, entry) => {

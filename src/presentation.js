@@ -193,12 +193,13 @@ export default class Presentation extends React.Component {
           </Instruction>
           <Instruction>
             In <Code>build/static/js/</Code> you should see a very large, uncompressed
-            JavaScript file. We can tell webpack to compress that file, using plugins.
+            JavaScript file. We can tell webpack to compress that file, using{' '}
+            <Code>mode</Code>.
           </Instruction>
 
           <Instruction>
-            Add a <Code>module</Code> section and update the <Code>plugins</Code> section
-            of <Code>webpack.config.js</Code>:
+            Add a <Code>module</Code> section and update the <Code>mode</Code> setting of{' '}
+            <Code>webpack.config.js</Code>:
           </Instruction>
           <CodePane
             lang="javascript"
@@ -207,8 +208,10 @@ export default class Presentation extends React.Component {
 
           <Heading>NODE_ENV</Heading>
           <Paragraph>
-            <Code>process.env.NODE_ENV</Code> and <Code>webpack.DefinePlugin</Code> lets
-            us adjust behaviour between development and production.
+            <Code>process.env.NODE_ENV</Code> lets us adjust behaviour between development
+            and production. It is automatically replaced with <Code>'development'</Code>{' '}
+            or <Code>'production'</Code> by webpack, <strong>before</strong> uglify does
+            dead code elimination.
           </Paragraph>
           <Instruction>
             Update <Code>src/index.js</Code>:
@@ -583,23 +586,20 @@ export default class Presentation extends React.Component {
           </Instruction>
         </Section>
         <Section>
-          <SectionHeading>Higher Order Component</SectionHeading>
+          <SectionHeading>Render Properties</SectionHeading>
           <Instruction>
-            Create a new file called <Code>src/connect.js</Code>
+            Create a new file called <Code>src/Read.js</Code>
+          </Instruction>
+          <CodePane lang="javascript" source={require('./steps/15-read/src/Read.js')} />
+          <Instruction>
+            Update <Code>src/StarWarsFilmSelector.js</Code> to use Read
           </Instruction>
           <CodePane
             lang="javascript"
-            source={require('./steps/15-connect/src/connect.js')}
+            source={require('./steps/15-read/src/StarWarsFilmSelector.js')}
           />
           <Instruction>
-            Update <Code>src/StarWarsFilmSelector.js</Code> to use connect
-          </Instruction>
-          <CodePane
-            lang="javascript"
-            source={require('./steps/15-connect/src/StarWarsFilmSelector.js')}
-          />
-          <Instruction>
-            Update <Code>src/StarWarsCharacter.js</Code> to also use connect
+            Update <Code>src/StarWarsCharacter.js</Code> to also use read
           </Instruction>
         </Section>
       </Deck>
