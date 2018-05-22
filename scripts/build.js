@@ -17,6 +17,7 @@ require('../config/env');
 const path = require('path');
 const chalk = require('chalk');
 const fs = require('fs-extra');
+const tar = require('tar');
 const webpack = require('webpack');
 const config = require('../config/webpack.config.prod');
 const paths = require('../config/paths');
@@ -26,8 +27,7 @@ const printHostingInstructions = require('react-dev-utils/printHostingInstructio
 const FileSizeReporter = require('react-dev-utils/FileSizeReporter');
 const printBuildError = require('react-dev-utils/printBuildError');
 
-const measureFileSizesBeforeBuild =
-  FileSizeReporter.measureFileSizesBeforeBuild;
+const measureFileSizesBeforeBuild = FileSizeReporter.measureFileSizesBeforeBuild;
 const printFileSizesAfterBuild = FileSizeReporter.printFileSizesAfterBuild;
 const useYarn = fs.existsSync(paths.yarnLockFile);
 
@@ -51,8 +51,20 @@ measureFileSizesBeforeBuild(paths.appBuild)
     fs.emptyDirSync(paths.appBuild);
     // Merge with the public folder
     copyPublicFolder();
-    // Start the webpack build
-    return build(previousFileSizes);
+    return tar
+      .c(
+        {
+          cwd: paths.appSrc + '/steps/base/',
+          prefix: 'intro-to-react/',
+          gzip: true,
+          file: paths.appBuild + '/base.tgz'
+        },
+        ['']
+      )
+      .then(() => {
+        // Start the webpack build
+        return build(previousFileSizes);
+      });
   })
   .then(
     ({stats, previousFileSizes, warnings}) => {
@@ -87,13 +99,7 @@ measureFileSizesBeforeBuild(paths.appBuild)
       const publicUrl = paths.publicUrl;
       const publicPath = config.output.publicPath;
       const buildFolder = path.relative(process.cwd(), paths.appBuild);
-      printHostingInstructions(
-        appPackage,
-        publicUrl,
-        publicPath,
-        buildFolder,
-        useYarn
-      );
+      printHostingInstructions(appPackage, publicUrl, publicPath, buildFolder, useYarn);
     },
     err => {
       console.log(chalk.red('Failed to compile.\n'));
