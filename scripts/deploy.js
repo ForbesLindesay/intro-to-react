@@ -3,10 +3,10 @@ if (process.env.TRAVIS_BRANCH !== 'master') {
 }
 
 const path = require('path');
-const AwsS3 = require('aws-sdk/clients/s3');
+const aws = require('aws-sdk');
 const s3 = require('s3');
 
-const awsS3Client = new AwsS3({
+const awsS3Client = new aws.S3({
   accessKeyId: process.env.S3_KEY,
   secretAccessKey: process.env.S3_SECRET,
   region: process.env.S3_REGION
