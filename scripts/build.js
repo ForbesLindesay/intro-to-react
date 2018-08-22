@@ -55,7 +55,7 @@ measureFileSizesBeforeBuild(paths.appBuild)
     return tar
       .c(
         {
-          cwd: paths.appSrc + '/steps/base/',
+          cwd: paths.appSrc + '/steps/00-base/',
           prefix: 'intro-to-react/',
           gzip: {level: require('zlib').constants.Z_BEST_COMPRESSION},
           file: paths.appBuild + '/base.tgz'

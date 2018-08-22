@@ -1,6 +1,10 @@
 [
   [
     {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
+    },
+    {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
@@ -13,6 +17,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -35,6 +43,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -63,6 +75,10 @@
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
     },
     {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
+    },
+    {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
@@ -83,6 +99,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -117,6 +137,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -157,6 +181,10 @@
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
     },
     {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
+    },
+    {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
@@ -193,6 +221,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -237,6 +269,10 @@
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
     },
     {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
+    },
+    {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
@@ -277,6 +313,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -321,6 +361,10 @@
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
     },
     {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
+    },
+    {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
@@ -361,6 +405,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -415,6 +463,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -483,6 +535,10 @@
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
     },
     {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
+    },
+    {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
@@ -541,6 +597,10 @@
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
     },
     {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
+    },
+    {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
@@ -597,6 +657,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
@@ -659,6 +723,10 @@
     {
       "path": "index.html",
       "hash": "dc5f8aa09f5ffefa9a6470f841a0d3c7"
+    },
+    {
+      "path": "polyfills.js",
+      "hash": "218f205d67784e93fda607e4808aaebf"
     },
     {
       "path": "test.js",
