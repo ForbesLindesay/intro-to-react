@@ -7,10 +7,6 @@
     {
       "path": "test.js",
       "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     }
   ],
   [
@@ -29,10 +25,6 @@
     {
       "path": "webpack.config.js",
       "hash": "b28e6183d860b6f794b272e4d667a190"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/index.js",
@@ -55,10 +47,6 @@
     {
       "path": "webpack.config.js",
       "hash": "cc30924d68ecad2fe85a4e1cfac6eb31"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/index.js",
@@ -87,10 +75,6 @@
       "hash": "cc30924d68ecad2fe85a4e1cfac6eb31"
     },
     {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
-    },
-    {
       "path": "src/index.js",
       "hash": "9a6bb6777ad192a83370f1d84bba8b15"
     }
@@ -115,10 +99,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Mode.js",
@@ -153,10 +133,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -197,10 +173,6 @@
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
     },
     {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
-    },
-    {
       "path": "src/Counter.js",
       "hash": "4d588d0a6ff8cb7862e0ef48398ec2a0"
     },
@@ -237,10 +209,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -285,10 +253,6 @@
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
     },
     {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
-    },
-    {
       "path": "src/Counter.js",
       "hash": "4d588d0a6ff8cb7862e0ef48398ec2a0"
     },
@@ -329,10 +293,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -377,10 +337,6 @@
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
     },
     {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
-    },
-    {
       "path": "src/Counter.js",
       "hash": "e76836a5582916fe0625598bc9f30043"
     },
@@ -421,10 +377,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -479,10 +431,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -551,10 +499,6 @@
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
     },
     {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
-    },
-    {
       "path": "src/App.js",
       "hash": "4e461890a37106fd4722520d681d523c"
     },
@@ -613,10 +557,6 @@
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
     },
     {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
-    },
-    {
       "path": "src/App.js",
       "hash": "57d37d6f556bed2cb4e8770ad441cd2d"
     },
@@ -673,10 +613,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -739,10 +675,6 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
-    },
-    {
-      "path": "yarn-error.log",
-      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
