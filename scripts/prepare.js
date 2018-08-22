@@ -58,7 +58,8 @@ steps.forEach((step, i) => {
         element.name !== 'node_modules' &&
         element.name !== 'package-lock.json' &&
         element.name !== 'yarn.lock' &&
-        element.name !== 'package.json'
+        element.name !== 'package.json' &&
+        element.name !== '.DS_Store'
       );
     }
   }).forEach(entry => {
