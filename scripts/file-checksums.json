@@ -2,7 +2,11 @@
   [
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     }
   ],
   [
@@ -12,11 +16,15 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
       "hash": "b28e6183d860b6f794b272e4d667a190"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/index.js",
@@ -30,11 +38,15 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
       "hash": "cc30924d68ecad2fe85a4e1cfac6eb31"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/index.js",
@@ -52,11 +64,15 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
       "hash": "cc30924d68ecad2fe85a4e1cfac6eb31"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/index.js",
@@ -70,7 +86,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -79,6 +95,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Mode.js",
@@ -100,7 +120,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -109,6 +129,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -134,7 +158,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -143,6 +167,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -168,7 +196,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -177,6 +205,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -206,7 +238,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -215,6 +247,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -244,7 +280,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -253,6 +289,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -282,7 +322,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -291,6 +331,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/Counter.js",
@@ -320,7 +364,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -329,6 +373,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -370,7 +418,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -379,6 +427,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -432,7 +484,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -441,6 +493,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -486,7 +542,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -495,6 +551,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -540,7 +600,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -549,6 +609,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",
@@ -598,7 +662,7 @@
     },
     {
       "path": "test.js",
-      "hash": "4f573f577327b33d43d8056c14546b6b"
+      "hash": "0072ee62dd3a534a5d65b4c3eb9c02a0"
     },
     {
       "path": "webpack.config.js",
@@ -607,6 +671,10 @@
     {
       "path": "webpack.config.module.js",
       "hash": "cf5e1a22855d0f9c15e2dbf36d48f703"
+    },
+    {
+      "path": "yarn-error.log",
+      "hash": "6521f6565dee95267368c4343ecdff18"
     },
     {
       "path": "src/App.js",

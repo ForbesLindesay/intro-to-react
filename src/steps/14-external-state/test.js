@@ -33,12 +33,12 @@ function printNodeAdvice() {
 }
 
 const pkg = require('./package.json');
-const dependencies = Object.keys(pkg.dependencies).concat(
-  Object.keys(pkg.devDependencies)
+const dependencies = Object.keys(pkg.dependencies || {}).concat(
+  Object.keys(pkg.devDependencies || {})
 );
 dependencies.forEach(dependency => {
   try {
-    require(dependency);
+    require(dependency + '/package.json');
   } catch (ex) {
     console.log('Missing dependency ' + dependency);
     console.log('Please run `yarn install`');
