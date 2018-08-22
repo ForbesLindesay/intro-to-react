@@ -102,6 +102,11 @@ measureFileSizesBeforeBuild(paths.appBuild)
       });
       console.log();
 
+      fs.mkdirSync(paths.appBuild + '/prepare');
+      fs.writeFileSync(
+        paths.appBuild + '/prepare/index.html',
+        fs.readFileSync(paths.appBuild + '/index.html')
+      );
       const appPackage = require(paths.appPackageJson);
       const publicUrl = paths.publicUrl;
       const publicPath = config.output.publicPath;

@@ -39,6 +39,7 @@
     "react-dev-utils": "^4.0.0",
     "react-dom": "^15.6.1",
     "rimraf": "^2.6.2",
+    "s3": "^4.4.0",
     "spectacle": "2.2.0",
     "style-loader": "0.18.2",
     "styled-components": "^2.1.2",
