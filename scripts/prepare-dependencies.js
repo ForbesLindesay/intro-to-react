@@ -8,7 +8,7 @@ const stepsDir = __dirname + '/../src/steps';
 
 const steps = fs.readdirSync(stepsDir).filter(step => /^\d\d\-/.test(step));
 
-const packageJSON = fs.readFileSync(stepsDir + '/01-init/package.json', 'utf8');
+const packageJSON = fs.readFileSync(stepsDir + '/00-base/package.json', 'utf8');
 const packageJSONCheck = fs.readFileSync(__dirname + '/package.json-check', 'utf8');
 if (packageJSONCheck !== packageJSON) {
   steps.forEach(step => {
@@ -20,9 +20,21 @@ if (packageJSONCheck !== packageJSON) {
   rimraf(stepsDir + '/base/yarn.lock');
   rimraf(stepsDir + '/base/package-lock.json');
   rimraf(stepsDir + '/base/node_modules');
-  cp.execSync('yarn', {cwd: stepsDir + '/base', stdio: 'inherit'});
+  const yarnResult = cp.spawnSync('yarn', {
+    cwd: stepsDir + '/base',
+    stdio: 'inherit'
+  });
+  if (yarnResult.status !== 0) {
+    process.exit(yarnResult.status);
+  }
   rimraf(stepsDir + '/base/node_modules');
-  cp.execSync('npm install', {cwd: stepsDir + '/base', stdio: 'inherit'});
+  const npmResult = cp.spawnSync('npm', ['install'], {
+    cwd: stepsDir + '/base',
+    stdio: 'inherit'
+  });
+  if (npmResult.status !== 0) {
+    process.exit(npmResult.status);
+  }
 
   fs.unlinkSync(stepsDir + '/base/package.json');
 
