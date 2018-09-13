@@ -1,8 +1,7 @@
-const React = require('react');
-const request = require('then-request');
-const Store = require('./Store');
+import React from 'react';
+import Store from './Store';
 
-class StarWarsCharacter extends React.Component {
+export default class StarWarsCharacter extends React.Component {
   state = {character: null};
   componentDidMount() {
     Store.subscribe(this._onUpdate);
@@ -29,4 +28,3 @@ class StarWarsCharacter extends React.Component {
     return <li>{this.state.character.value.name}</li>;
   }
 }
-module.exports = StarWarsCharacter;

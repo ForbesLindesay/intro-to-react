@@ -76,7 +76,7 @@
     },
     {
       "path": "src/index.js",
-      "hash": "9a6bb6777ad192a83370f1d84bba8b15"
+      "hash": "73bd297df45c3a27a241d26f4a9a2637"
     }
   ],
   [
@@ -102,15 +102,15 @@
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "decff105ce064759a90f53d46ddc5f75"
+      "hash": "9fb2a7fe289eff3a9a7f591cc4fe1f36"
     }
   ],
   [
@@ -136,19 +136,19 @@
     },
     {
       "path": "src/Counter.js",
-      "hash": "80a73af0f0ccb9581d44f4589cd38e51"
+      "hash": "2cde4345c29bc3335016e7fd8d68cb0c"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "3aaf6257834bf88befc9d146a853b5a6"
+      "hash": "a1ccb33bbe93cb2ac369a6feb7cae6c7"
     }
   ],
   [
@@ -174,19 +174,19 @@
     },
     {
       "path": "src/Counter.js",
-      "hash": "4d588d0a6ff8cb7862e0ef48398ec2a0"
+      "hash": "c8ba9191f15ff13509210df608c86df8"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "2192591eaa031796561576b654662409"
+      "hash": "1f6a18d46358e441442b691b647f3f26"
     }
   ],
   [
@@ -212,23 +212,23 @@
     },
     {
       "path": "src/Counter.js",
-      "hash": "4d588d0a6ff8cb7862e0ef48398ec2a0"
+      "hash": "c8ba9191f15ff13509210df608c86df8"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "de635b11dfa55291691c70f31e63ebb9"
+      "hash": "b1045ef7459b98d8f4284aed08fff529"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1044f8c78f1bf724d2a8b31dd83ad8fb"
+      "hash": "c7c21a2730fa957008a3f7109b96476b"
     }
   ],
   [
@@ -254,23 +254,23 @@
     },
     {
       "path": "src/Counter.js",
-      "hash": "4d588d0a6ff8cb7862e0ef48398ec2a0"
+      "hash": "c8ba9191f15ff13509210df608c86df8"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1044f8c78f1bf724d2a8b31dd83ad8fb"
+      "hash": "c7c21a2730fa957008a3f7109b96476b"
     }
   ],
   [
@@ -296,23 +296,23 @@
     },
     {
       "path": "src/Counter.js",
-      "hash": "760a9277ed8cd7fe27d9fe89e7c4274a"
+      "hash": "d2034d52b6518001c4c329a78ad5d85f"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "e68a1c89b0bae3969b44d52661e4ba85"
+      "hash": "2ccd221ac3483154b54ccdd808283f06"
     }
   ],
   [
@@ -338,23 +338,23 @@
     },
     {
       "path": "src/Counter.js",
-      "hash": "e76836a5582916fe0625598bc9f30043"
+      "hash": "c59adfd129c2307bce7158fb8d2866c2"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "e68a1c89b0bae3969b44d52661e4ba85"
+      "hash": "2ccd221ac3483154b54ccdd808283f06"
     }
   ],
   [
@@ -380,31 +380,31 @@
     },
     {
       "path": "src/App.js",
-      "hash": "5bd37643ddb5ed5c9e64d4c530213f5e"
+      "hash": "b97b352af305a8b641eeb537875db654"
     },
     {
       "path": "src/Counter.js",
-      "hash": "e76836a5582916fe0625598bc9f30043"
+      "hash": "c59adfd129c2307bce7158fb8d2866c2"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/StarWarsFilmList.js",
-      "hash": "fe006b2b00756e312a611b962bc9e06c"
+      "hash": "156c4422b663fd1ad4720cae2067b5df"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1ca699903bf994c1ef7684191904ac6c"
+      "hash": "7df9c80dc98df93f51333c53a3f74053"
     },
     {
       "path": "src/sample-response.json",
@@ -434,23 +434,23 @@
     },
     {
       "path": "src/App.js",
-      "hash": "cc9cfafabe2fb521466c2a1f8b23391d"
+      "hash": "627f4ae90513604ff5132098b9de66c0"
     },
     {
       "path": "src/Counter.js",
-      "hash": "e76836a5582916fe0625598bc9f30043"
+      "hash": "c59adfd129c2307bce7158fb8d2866c2"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/StarWarsFilmList.js",
-      "hash": "fe006b2b00756e312a611b962bc9e06c"
+      "hash": "156c4422b663fd1ad4720cae2067b5df"
     },
     {
       "path": "src/StarWarsFilmSelector.js",
-      "hash": "dcf433495dbe519fff517491d85d57ba"
+      "hash": "ee919816d45e13e5a185c5f7b4e0f620"
     },
     {
       "path": "src/StarWarsFilmSelector.js.onChange",
@@ -462,15 +462,15 @@
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1ca699903bf994c1ef7684191904ac6c"
+      "hash": "7df9c80dc98df93f51333c53a3f74053"
     },
     {
       "path": "src/sample-response.json",
@@ -500,39 +500,43 @@
     },
     {
       "path": "src/App.js",
-      "hash": "4e461890a37106fd4722520d681d523c"
+      "hash": "0b58908877deebc525de9fe3abfc4f56"
     },
     {
       "path": "src/Counter.js",
-      "hash": "e76836a5582916fe0625598bc9f30043"
+      "hash": "c59adfd129c2307bce7158fb8d2866c2"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/StarWarsCharacter.js",
-      "hash": "27eb7bcc44b3dd11a469e42d59648643"
+      "hash": "47b1b3ed77cf79af75f1ae2661498b10"
     },
     {
       "path": "src/StarWarsCharacter.part.js",
-      "hash": "0f92e15e701879c82ebdc0f32fd68ee3"
+      "hash": "b4339c7de19c3816cc7e4206d759a57b"
+    },
+    {
+      "path": "src/StarWarsFilmList.js",
+      "hash": "156c4422b663fd1ad4720cae2067b5df"
     },
     {
       "path": "src/StarWarsFilmSelector.js",
-      "hash": "26556ff89771e68e4bde5addd9dbe9c8"
+      "hash": "ee919816d45e13e5a185c5f7b4e0f620"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1ca699903bf994c1ef7684191904ac6c"
+      "hash": "7df9c80dc98df93f51333c53a3f74053"
     }
   ],
   [
@@ -558,39 +562,43 @@
     },
     {
       "path": "src/App.js",
-      "hash": "57d37d6f556bed2cb4e8770ad441cd2d"
+      "hash": "14cffa8ba0ab8513cc4824f53761e823"
     },
     {
       "path": "src/Counter.js",
-      "hash": "e76836a5582916fe0625598bc9f30043"
+      "hash": "c59adfd129c2307bce7158fb8d2866c2"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/StarWarsCharacter.js",
-      "hash": "27eb7bcc44b3dd11a469e42d59648643"
+      "hash": "47b1b3ed77cf79af75f1ae2661498b10"
     },
     {
       "path": "src/StarWarsCharacter.part.js",
-      "hash": "cfd34f14b42be35ff1634d9e6aa3f2f1"
+      "hash": "b4339c7de19c3816cc7e4206d759a57b"
+    },
+    {
+      "path": "src/StarWarsFilmList.js",
+      "hash": "156c4422b663fd1ad4720cae2067b5df"
     },
     {
       "path": "src/StarWarsFilmSelector.js",
-      "hash": "26556ff89771e68e4bde5addd9dbe9c8"
+      "hash": "ee919816d45e13e5a185c5f7b4e0f620"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1ca699903bf994c1ef7684191904ac6c"
+      "hash": "7df9c80dc98df93f51333c53a3f74053"
     }
   ],
   [
@@ -616,43 +624,47 @@
     },
     {
       "path": "src/App.js",
-      "hash": "57d37d6f556bed2cb4e8770ad441cd2d"
+      "hash": "14cffa8ba0ab8513cc4824f53761e823"
     },
     {
       "path": "src/Counter.js",
-      "hash": "e76836a5582916fe0625598bc9f30043"
+      "hash": "c59adfd129c2307bce7158fb8d2866c2"
     },
     {
       "path": "src/Mode.js",
-      "hash": "bce7113340772c7ec465548d2d62f2f7"
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/StarWarsCharacter.js",
-      "hash": "d67a6cd33a0764ddc570d41fbfbb4d55"
+      "hash": "2878a68cb68e0a8809b2d359dc54d8d3"
     },
     {
       "path": "src/StarWarsCharacter.part.js",
       "hash": "e9ed32254ff1086eef434f02cc34ccea"
     },
     {
+      "path": "src/StarWarsFilmList.js",
+      "hash": "156c4422b663fd1ad4720cae2067b5df"
+    },
+    {
       "path": "src/StarWarsFilmSelector.js",
-      "hash": "6ff15d29fa1f695c73bd64362f2ac747"
+      "hash": "bf0768f742852914f676a5b099162472"
     },
     {
       "path": "src/Store.js",
-      "hash": "34fc54c6b86706920a105c832906eb5a"
+      "hash": "ffe71a02e658008613b580b6a2851b21"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1ca699903bf994c1ef7684191904ac6c"
+      "hash": "7df9c80dc98df93f51333c53a3f74053"
     }
   ],
   [
@@ -678,11 +690,15 @@
     },
     {
       "path": "src/App.js",
-      "hash": "57d37d6f556bed2cb4e8770ad441cd2d"
+      "hash": "14cffa8ba0ab8513cc4824f53761e823"
     },
     {
       "path": "src/Counter.js",
-      "hash": "e76836a5582916fe0625598bc9f30043"
+      "hash": "c59adfd129c2307bce7158fb8d2866c2"
+    },
+    {
+      "path": "src/Mode.js",
+      "hash": "0e4e4ccf9e8c4b40e49cdfed1f2eec61"
     },
     {
       "path": "src/Read.js",
@@ -697,24 +713,28 @@
       "hash": "cfd34f14b42be35ff1634d9e6aa3f2f1"
     },
     {
+      "path": "src/StarWarsFilmList.js",
+      "hash": "156c4422b663fd1ad4720cae2067b5df"
+    },
+    {
       "path": "src/StarWarsFilmSelector.js",
       "hash": "7792b7009797ad6701255301876ca5c8"
     },
     {
       "path": "src/Store.js",
-      "hash": "34fc54c6b86706920a105c832906eb5a"
+      "hash": "ffe71a02e658008613b580b6a2851b21"
     },
     {
       "path": "src/WelcomeForm.js",
-      "hash": "7289c32ddd14e3dfc130dab3c42ab257"
+      "hash": "708d6c8913e7fea0d3b14fdfe455fa43"
     },
     {
       "path": "src/WelcomeMessage.js",
-      "hash": "c0f34cdba42d50f62081a47709aeee31"
+      "hash": "9ec476d910602476fefd5dca553d2c4c"
     },
     {
       "path": "src/index.js",
-      "hash": "1ca699903bf994c1ef7684191904ac6c"
+      "hash": "7df9c80dc98df93f51333c53a3f74053"
     }
   ]
 ]

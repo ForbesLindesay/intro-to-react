@@ -1,6 +1,6 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const WelcomeForm = require('./WelcomeForm');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import WelcomeForm from './WelcomeForm';
 
 const root = document.getElementById('root');
 

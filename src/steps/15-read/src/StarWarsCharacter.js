@@ -1,8 +1,7 @@
-const React = require('react');
-const request = require('then-request');
-const Read = require('./Read');
+import React from 'react';
+import Read from './Read';
 
-function StarWarsCharacter(props) {
+export default function StarWarsCharacter(props) {
   return (
     <Read getData={Store => Store.getObject(props.url)}>
       {characterObj => {
@@ -17,4 +16,3 @@ function StarWarsCharacter(props) {
     </Read>
   );
 }
-module.exports = StarWarsCharacter;

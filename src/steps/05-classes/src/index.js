@@ -1,4 +1,4 @@
-const Counter = require('./Counter');
+import Counter from './Counter';
 
 const root = document.getElementById('root');
 

@@ -1,16 +1,18 @@
-const React = require('react');
-const request = require('then-request');
+import React from 'react';
 
-class StarWarsFilmList extends React.Component {
+export default class StarWarsFilmList extends React.Component {
   state = {error: null, films: null};
-  componentDidMount() {
-    request('get', 'https://swapi.co/api/films/')
-      .getBody('utf8')
-      .then(JSON.parse)
-      .then(
-        response => this.setState({films: response.results}),
-        error => this.setState({error})
-      );
+  async componentDidMount() {
+    try {
+      const response = await fetch('https://swapi.co/api/films/');
+      if (!response.ok) {
+        throw new Error(response.statusText + ': ' + (await response.text()));
+      }
+      const data = await response.json();
+      this.setState({films: data.results});
+    } catch (ex) {
+      this.setState({error});
+    }
   }
   render() {
     if (this.state.error !== null) {
@@ -19,7 +21,12 @@ class StarWarsFilmList extends React.Component {
     if (this.state.films === null) {
       return <div>Loading Films</div>;
     }
-    return <ul>{this.state.films.map(film => <li key={film.url}>{film.title}</li>)}</ul>;
+    return (
+      <ul>
+        {this.state.films.map(film => (
+          <li key={film.url}>{film.title}</li>
+        ))}
+      </ul>
+    );
   }
 }
-module.exports = StarWarsFilmList;

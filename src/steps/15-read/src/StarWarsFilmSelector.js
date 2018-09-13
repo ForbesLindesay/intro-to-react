@@ -1,8 +1,7 @@
-const React = require('react');
-const request = require('then-request');
-const Read = require('./Read');
+import React from 'react';
+import Read from './Read';
 
-function StarWarsFilmSelector(props) {
+export default function StarWarsFilmSelector(props) {
   return (
     <Read getData={Store => Store.getFilms()}>
       {filmsObj => {
@@ -39,4 +38,3 @@ function StarWarsFilmSelector(props) {
     </Read>
   );
 }
-module.exports = StarWarsFilmSelector;

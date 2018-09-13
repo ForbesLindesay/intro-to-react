@@ -1,8 +1,8 @@
-const React = require('react');
-const StarWarsFilmSelector = require('./StarWarsFilmSelector');
-const StarWarsCharacter = require('./StarWarsCharacter');
+import React from 'react';
+import StarWarsFilmSelector from './StarWarsFilmSelector';
+import StarWarsCharacter from './StarWarsCharacter';
 
-class App extends React.Component {
+export default class App extends React.Component {
   state = {selectedFilm: null};
   _onChangeFilm = selectedFilm => {
     this.setState({selectedFilm});
@@ -28,5 +28,3 @@ class App extends React.Component {
     );
   }
 }
-
-module.exports = App;

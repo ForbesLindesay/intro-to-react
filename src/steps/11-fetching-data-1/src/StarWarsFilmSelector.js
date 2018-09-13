@@ -1,22 +1,24 @@
-const React = require('react');
-const request = require('then-request');
+import React from 'react';
 
-class StarWarsFilmSelector extends React.Component {
+export default class StarWarsFilmSelector extends React.Component {
   state = {error: null, films: null};
-  componentDidMount() {
-    request('get', 'https://swapi.co/api/films/')
-      .getBody('utf8')
-      .then(JSON.parse)
-      .then(
-        response => this.setState({films: response.results}),
-        error => this.setState({error})
-      );
+  async componentDidMount() {
+    try {
+      const response = await fetch('https://swapi.co/api/films/');
+      if (!response.ok) {
+        throw new Error(response.statusText + ': ' + (await response.text()));
+      }
+      const data = await response.json();
+      this.setState({films: data.results});
+    } catch (ex) {
+      this.setState({error});
+    }
   }
   _onChange = e => {
     if (e.target.value === 'null') {
       this.props.onChange(null);
     } else {
-      const film = this.state.films.filter(film => film.url === e.target.value)[0];
+      const film = this.state.films.find(film => film.url === e.target.value);
       this.props.onChange(film);
     }
   };
@@ -42,4 +44,3 @@ class StarWarsFilmSelector extends React.Component {
     );
   }
 }
-module.exports = StarWarsFilmSelector;

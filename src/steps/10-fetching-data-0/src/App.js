@@ -1,8 +1,6 @@
-const React = require('react');
-const StarWarsFilmList = require('./StarWarsFilmList');
+import React from 'react';
+import StarWarsFilmList from './StarWarsFilmList';
 
-function App() {
+export default function App() {
   return <StarWarsFilmList />;
 }
-
-module.exports = App;

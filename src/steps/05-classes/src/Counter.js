@@ -1,4 +1,4 @@
-class Counter {
+export default class Counter {
   value = 0;
   increment() {
     this.value++;
@@ -10,5 +10,3 @@ class Counter {
     return `${this.value}`;
   }
 }
-
-module.exports = Counter;

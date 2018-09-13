@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-function Mode() {
+export default function Mode() {
   return (
     <p>
       Mode:
@@ -10,4 +10,3 @@ function Mode() {
     </p>
   );
 }
-module.exports = Mode;

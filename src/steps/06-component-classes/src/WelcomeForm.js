@@ -1,7 +1,7 @@
-const React = require('react');
-const WelcomeMessage = require('./WelcomeMessage');
+import React from 'react';
+import WelcomeMessage from './WelcomeMessage';
 
-class WelcomeForm extends React.Component {
+export default class WelcomeForm extends React.Component {
   render() {
     return (
       <div>
@@ -14,4 +14,3 @@ class WelcomeForm extends React.Component {
     );
   }
 }
-module.exports = WelcomeForm;

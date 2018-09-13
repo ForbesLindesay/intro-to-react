@@ -1,6 +1,6 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const WelcomeMessage = require('./WelcomeMessage');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import WelcomeMessage from './WelcomeMessage';
 
 const root = document.getElementById('root');
 

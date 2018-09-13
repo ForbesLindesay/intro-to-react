@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class Counter extends React.Component {
+export default class Counter extends React.Component {
   state = {value: 0};
   increment = () => {
     this.setState(oldState => ({value: oldState.value + 1}));
@@ -18,5 +18,3 @@ class Counter extends React.Component {
     );
   }
 }
-
-module.exports = Counter;

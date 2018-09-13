@@ -1,6 +1,6 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const Counter = require('./Counter');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Counter from './Counter';
 
 const root = document.getElementById('root');
 

@@ -1,7 +1,6 @@
-const React = require('react');
-const request = require('then-request');
+import React from 'react';
 
-class StarWarsCharacter extends React.Component {
+export default class StarWarsCharacter extends React.Component {
   state = {error: null, character: null};
   componentDidMount() {
     this.load(this.props.url);
@@ -11,7 +10,7 @@ class StarWarsCharacter extends React.Component {
       this.load(props.url);
     }
   }
-  load(url) {
+  async load(url) {
     this.setState({error: null, character: null});
     // TODO: load the character data at the url
     // The api returns the character directly in the response,
@@ -28,4 +27,3 @@ class StarWarsCharacter extends React.Component {
     );
   }
 }
-module.exports = StarWarsCharacter;

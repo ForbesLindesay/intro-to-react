@@ -1,11 +1,9 @@
-const React = require('react');
+import React from 'react';
 
-function WelcomeMessage(props) {
+export default function WelcomeMessage(props) {
   return (
     <div>
       Welcome <strong>{props.name}</strong>
     </div>
   );
 }
-
-module.exports = WelcomeMessage;

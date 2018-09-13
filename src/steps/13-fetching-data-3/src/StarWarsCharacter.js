@@ -1,7 +1,6 @@
-const React = require('react');
-const request = require('then-request');
+import React from 'react';
 
-class StarWarsCharacter extends React.Component {
+export default class StarWarsCharacter extends React.Component {
   state = {error: null, character: null};
   componentDidMount() {
     this.load(this.props.url);
@@ -11,15 +10,20 @@ class StarWarsCharacter extends React.Component {
       this.load(props.url);
     }
   }
-  load(url) {
+  async load(url) {
     this.setState({error: null, character: null});
-    request('get', url)
-      .getBody('utf8')
-      .then(JSON.parse)
-      .then(
-        response => this.setState({character: response}),
-        error => this.setState({error})
-      );
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(response.statusText + ': ' + (await response.text()));
+      }
+      const data = await response.json();
+      if (this.props.url === url) {
+        this.setState({character: data});
+      }
+    } catch (ex) {
+      this.setState({error});
+    }
   }
   render() {
     if (this.state.error !== null) {
@@ -31,4 +35,3 @@ class StarWarsCharacter extends React.Component {
     return <li>{this.state.character.name}</li>;
   }
 }
-module.exports = StarWarsCharacter;

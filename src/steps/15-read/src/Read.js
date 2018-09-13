@@ -1,7 +1,7 @@
-const React = require('react');
-const Store = require('./Store');
+import React from 'react';
+import Store from './Store';
 
-class Read extends React.Component {
+export default class Read extends React.Component {
   state = this.props.getData(Store);
   componentDidMount() {
     Store.subscribe(this._onUpdate);
@@ -16,4 +16,3 @@ class Read extends React.Component {
     return this.props.children(this.props.getData(Store));
   }
 }
-module.exports = Read;

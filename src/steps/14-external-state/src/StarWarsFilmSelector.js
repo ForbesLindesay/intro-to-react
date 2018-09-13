@@ -1,8 +1,7 @@
-const React = require('react');
-const request = require('then-request');
-const Store = require('./Store');
+import React from 'react';
+import Store from './Store';
 
-class StarWarsFilmSelector extends React.Component {
+export default class StarWarsFilmSelector extends React.Component {
   state = {films: null};
   componentDidMount() {
     Store.subscribe(this._onUpdate);
@@ -48,4 +47,3 @@ class StarWarsFilmSelector extends React.Component {
     );
   }
 }
-module.exports = StarWarsFilmSelector;
