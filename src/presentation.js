@@ -61,52 +61,71 @@ class CodePane extends React.Component {
 
 function BasicSetup() {
   return (
-    <Section>
-      <SectionHeading>Basic Setup</SectionHeading>
+    <div>
+      <Section>
+        <SectionHeading>Basic Setup</SectionHeading>
 
-      <Heading>Node.js</Heading>
-      <Instruction>
-        Run <Code>node --version</Code>.
-      </Instruction>
-      <Instruction>The output should be either:</Instruction>
-      <Paragraph>
-        <Code>v8.11.4</Code> or <Code>v10.9.0</Code>
-      </Paragraph>
-      <Instruction>If you don't have node, and are using Windows:</Instruction>
-      <Paragraph>
-        <Link href="https://nodejs.org/en/download/">
-          https://nodejs.org/en/download/
-        </Link>
-      </Paragraph>
-      <Instruction>If you don't have node, and are using OSX or Linux:</Instruction>
-      <Paragraph>
-        If you don't have it already, I suggest installing nvm:{' '}
-        <Link href="https://nodejs.org/en/download/">
-          https://github.com/creationix/nvm
-        </Link>
-      </Paragraph>
-      <Paragraph>Once you have nvm installed, you can simply run:</Paragraph>
-      <Paragraph>
-        <Code>nvm install 10</Code>
-      </Paragraph>
+        <Heading>Node.js</Heading>
+        <Instruction>
+          Run <Code>node --version</Code>.
+        </Instruction>
+        <Instruction>The output should be either:</Instruction>
+        <Paragraph>
+          <Code>v8.11.4</Code> or <Code>v10.9.0</Code>
+        </Paragraph>
+        <Instruction>If you don't have node, and are using Windows:</Instruction>
+        <Paragraph>
+          <Link href="https://nodejs.org/en/download/">
+            https://nodejs.org/en/download/
+          </Link>
+        </Paragraph>
+        <Instruction>If you don't have node, and are using OSX or Linux:</Instruction>
+        <Paragraph>
+          If you don't have it already, I suggest installing nvm:{' '}
+          <Link href="https://nodejs.org/en/download/">
+            https://github.com/creationix/nvm
+          </Link>
+        </Paragraph>
+        <Paragraph>Once you have nvm installed, you can simply run:</Paragraph>
+        <Paragraph>
+          <Code>nvm install 10</Code>
+        </Paragraph>
 
-      <Heading>npm / yarn</Heading>
-      <Instruction>
-        Run <Code>yarn --version</Code>.
-      </Instruction>
-      <Instruction>The output should be:</Instruction>
-      <Paragraph>
-        <Code>1.9.4</Code>
-      </Paragraph>
-      <Instruction>
-        If you don't have the latest version of yarn, install it by following the
-        instructions on{' '}
-        <Link href="https://yarnpkg.com/en/docs/install">
-          https://yarnpkg.com/en/docs/install
-        </Link>
-      </Instruction>
-      <Paragraph>The latest version of npm should work fine as an alternative.</Paragraph>
-    </Section>
+        <Heading>npm / yarn</Heading>
+        <Instruction>
+          Run <Code>yarn --version</Code>.
+        </Instruction>
+        <Instruction>The output should be:</Instruction>
+        <Paragraph>
+          <Code>1.9.4</Code>
+        </Paragraph>
+        <Instruction>
+          If you don't have the latest version of yarn, install it by following the
+          instructions on{' '}
+          <Link href="https://yarnpkg.com/en/docs/install">
+            https://yarnpkg.com/en/docs/install
+          </Link>
+        </Instruction>
+        <Paragraph>
+          The latest version of npm should work fine as an alternative.
+        </Paragraph>
+      </Section>
+      <Section>
+        <SectionHeading>Project Setup</SectionHeading>
+        <Instruction>
+          Download and extract <Link href="/base.tgz">this tarball</Link> into a folder on
+          your machine.
+        </Instruction>
+        <Instruction>
+          In that folder, open a terminal and run <Code>yarn</Code> (or if you prefer,{' '}
+          <Code>npm install</Code>)
+        </Instruction>
+        <Instruction>
+          Run <Code>node test</Code> and it should print{' '}
+          <Code>It looks like you're all set!</Code>
+        </Instruction>
+      </Section>
+    </div>
   );
 }
 export default class Presentation extends React.Component {
@@ -118,21 +137,6 @@ export default class Presentation extends React.Component {
             <Title>Intro To React</Title>
           </Section>
           <BasicSetup />
-          <Section>
-            <SectionHeading>Project Setup</SectionHeading>
-            <Instruction>
-              Download and extract <Link href="/base.tgz">this tarball</Link> into a
-              folder on your machine.
-            </Instruction>
-            <Instruction>
-              In that folder, open a terminal and run <Code>yarn</Code> (or if you prefer,{' '}
-              <Code>npm install</Code>)
-            </Instruction>
-            <Instruction>
-              Run <Code>node test</Code> and it should print{' '}
-              <Code>It looks like you're all set!</Code>
-            </Instruction>
-          </Section>
         </Deck>
       );
     }
@@ -153,13 +157,7 @@ export default class Presentation extends React.Component {
         </Section>
         <BasicSetup />
         <Section>
-          <SectionHeading>Project Setup</SectionHeading>
-          <Paragraph>
-            To reduce the amount you need to install, you can download{' '}
-            <Link href="/base.tgz">this tarball</Link> that contains all of the
-            dependencies. If you skip doing this, they will just be downloaded when you
-            run npm install.
-          </Paragraph>
+          <SectionHeading>Project Setup - Part 2</SectionHeading>
           <Heading>package.json</Heading>
           <Paragraph>
             We will want to be able to use third party libraries in our project. We can
@@ -167,7 +165,8 @@ export default class Presentation extends React.Component {
             dependencies.
           </Paragraph>
           <Instruction>
-            Create a file called <Code>package.json</Code> with this content:
+            You should already have a file called <Code>package.json</Code> with this
+            content:
           </Instruction>
           <CodePane lang="javascript" source={require('./steps/01-init/package.json')} />
 
